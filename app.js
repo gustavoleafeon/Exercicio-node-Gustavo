@@ -1,11 +1,11 @@
 import express from "express";
-import pets from "./pets.js";
+import pokemon from "./pokemon.js";
 
 const app = express();
 const port = 3000;
 
-app.get("/", (Requisicao, resposta) => {
-  resposta.send(pets);
+app.get("/", (req, res) => {
+  res.send(pokemon);
 });
 
 app.listen(port, () => console.log(`Servidor rodando na porta ${port}`));
