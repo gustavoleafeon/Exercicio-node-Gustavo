@@ -1,5 +1,6 @@
 const pokemon = [
   {
+    Categoria: "Inicial",
     Especie: "Bulbasaur",
     DexNumber: 1,
     tipo: "Grama/Veneno",
@@ -7,6 +8,7 @@ const pokemon = [
   },
 
   {
+    Categoria: "Competitivo Favorito",
     Especie: "Mawile",
     DexNumber: 303,
     tipo: "Fada/Aço",
@@ -14,10 +16,19 @@ const pokemon = [
   },
 
   {
+    Categoria: "Shiny Favorito",
     Especie: "Phantump",
     DexNumber: 708,
     tipo: "Fantasma/Planta",
     Shiny: true,
+  },
+
+  {
+    Categoria: "Nunca usado favorito",
+    Especie: "Browt",
+    DexNumber: 1026,
+    tipo: "Grama/desconhecido",
+    Shiny: false,
   },
 ];
 
